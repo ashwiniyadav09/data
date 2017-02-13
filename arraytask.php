@@ -3,7 +3,7 @@
 mysql_connect('localhost','root','') or die("connection error");
 mysql_select_db('learning') or die("db error");
 
-$query = "SELECT * FROM student";
+$query = "SELECT * FROM student1";
 $exe = mysql_query($query);
 $node = array();
 $count=0;
